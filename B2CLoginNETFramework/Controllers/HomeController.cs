@@ -26,5 +26,11 @@ namespace B2CLoginNETFramework.Controllers
 
             return View();
         }
+
+        [Authorize]
+        public ActionResult Claims()
+        {
+            return View();
+        }
     }
 }
